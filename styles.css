@@ -1,0 +1,56 @@
+body {
+    background-image: url('image/fon.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+    font-size: 4rem;
+    color: white;
+}
+.bck-div {
+    background-color: rgba(59, 59, 59, 0.50);
+    height: 700px;
+    width: 1300px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 16px;
+}
+.btn {
+    background-color: rgba(255, 255, 255, 0.8);
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+.plug1 { left: 12%; top: 22%; }
+.plug2 { left: 35%; top: 22%; }
+.plug3 { left: 12%; top: 64%; }
+.plug4 { left: 35%; top: 64%; }
+.plug5 { left: 65%; top: 22%; }
+.plug6 { left: 88%; top: 22%; }
+.plug7 { left: 65%; top: 64%; }
+.plug8 { left: 88%; top: 64%; }
+.next { left: 77%; top: 93%; width: 300px; height: 60px; border-radius: 10px; }
+.prev { left: 24%; top: 93%; width: 300px; height: 60px; border-radius: 10px; }
+.but-tx {
+    position: absolute;
+    top: 1%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: cursive;
+    font-size: 25px;
+}
+.btn:hover {
+    background-color: rgba(255, 255, 255, 1); /* Change background color on hover */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Add a subtle box shadow on hover */
+}
