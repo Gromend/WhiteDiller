@@ -9,7 +9,7 @@
 <body>
     <div class="all">
         <h1>White Diller</h1>
-        <button class="plug-free" id="freeplugins">
+        <button class="plug-free" id="freeplugins" onclick="nextfile()">
             <p class="plug-text">Плагіни</p>
             <p class="plug-tx-free">Безкоштовні Плагіни</p>
         </button>
@@ -17,7 +17,6 @@
             <p class="plug-text">Плагіни</p>
             <p class="plug-tx-paid">Платні Плагіни</p>
         </button>
-        <script src="Script.js"></script>
         <div class="footer-inf">
             <div class="footer">Про нас</div>
        <p class="inf-foot"> Ласкаво просимо до White Dealers – молодої та енергійної команди, яка вже зараз готова приступити до створення унікальних плагінів для вашого Minecraft сервера!
@@ -28,7 +27,11 @@
           Навіть якщо ми тільки починаємо, наша команда розробників готова взятися за виклик та створити щось особливе для вас.
          Слідкуйте за нами, приєднуйтеся до нашої спільноти, і долучайтеся до формування Minecraft світу разом із White Dealers!
           Ми віримо, що найцінніші ідеї приходять від гравців, і ми з нетерпінням чекаємо на ваш внесок у наш розвиток.</p></div>
-        
     </div>
+    <script>
+        function nextfile() {
+            window.location.href = 'freeplug.html';
+        }
+    </script>
 </body>
 </html>
